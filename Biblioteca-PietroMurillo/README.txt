@@ -20,4 +20,5 @@ Requisitos
 Como usar
 1. Baixe ou clone este repositório:
    bash
-   git clone https://github.com/seu-usuario/repositorio.git
+   git clone https://github.com/pietromurillo/biblioteca
+
