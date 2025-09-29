@@ -1,32 +1,52 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Biblioteca</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home - Biblioteca</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <h1>Biblioteca Novo Mundo</h1>
-    </header>
 
-    <main>
-        <h2>Nossos Livros</h2>
-        <div class="carousel">
-            <div class="carousel-viewport">
-                <div class="carousel-track">
-                    <!-- Os slides dos livros serão inseridos aqui pelo JavaScript -->
+<body>
+<nav>
+    <div class="container">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#contato">Sobre Nós</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header>
+    <h1>Biblioteca Novo Mundo</h1>
+</header>
+
+<main>
+    <div class="container">
+        <section class="book-showcase">
+            <h2>Nossos Livros em Destaque</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img href="quincas.html" src=""c="img/quincas-borba.webp" alt="Capa do livro Quincas Borba">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/alguma-poesia.jpg" alt="Capa do livro Alguma Poesia">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/descoberta-do-mundo.jpg" alt="Capa do livro A Descoberta do Mundo">
                 </div>
             </div>
-            <button class="carousel-button prev">&#10094;</button>
-            <button class="carousel-button next">&#10095;</button>
-        </div>
-    </main>
+        </section>
 
-    <footer>
-        <p>Rua Piraporão, 1000</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
-</html>
+        <section class="actions">
+           
+            <div id="saida"></div>
+        </section>
+    </div>
+</main>
+
+<footer id="contato">
+    <p>Rua Piraporão, 1000</p>
+</footer>
+<script src="script.js"></script>
+
